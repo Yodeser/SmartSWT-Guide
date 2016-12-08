@@ -1,0 +1,1 @@
+.\jre\bin\java -server -cp .;./swtapps/;./jdom.jar;./example.jar;./SmartSWTServer3.1.jar; net.xdevelop.launch.Launcher

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<SmartSWTServer>
+	<!-- Desktop Configuration -->
+	<Desktop>
+		<!-- Configuration of Programs Group -->
+		<Programs>
+			<!-- Configuration of each SWT Application
+				name: the name of the SWT Application
+				mainClass: the start class name of the SWT Application
+				startup: will it start just after the desktop started(Not support in Beta version)
+				description: the description of the SWT Application
+			-->
+
+			<Application name="HelloWorld" mainClass="net.xdevelop.samples.HelloWorld">
+				<startup>false</startup>
+				<description>HelloWorld Application</description>
+			</Application>
+			
+			<Application name="ControlExample" mainClass="org.eclipse.swt.examples.controlexample.ControlExample">
+				<startup>false</startup>
+				<description>ControlExample Application</description>
+			</Application>
+			
+			<Application name="CustomControlExample" mainClass="org.eclipse.swt.examples.controlexample.CustomControlExample">
+				<startup>false</startup>
+				<description>CustomControlExample Application</description>
+			</Application>
+			
+			<!--
+			<Application name="AddressBook" mainClass="org.eclipse.swt.examples.addressbook.AddressBook">
+				<startup>false</startup>
+				<description>AddressBook</description>
+			</Application>
+			-->
+			
+			<!-- 
+			<Application name="BrowserExample" mainClass="org.eclipse.swt.examples.browserexample.BrowserExample">
+				<startup>false</startup>
+				<description>BrowserExample Application</description>
+			</Application>
+			-->
+			
+			<!-- 
+			<Application name="FileViewer" mainClass="org.eclipse.swt.examples.fileviewer.FileViewer">
+				<startup>false</startup>
+				<description>FileViewer</description>
+			</Application>
+			-->
+			
+			<Application name="Graphics" mainClass="org.eclipse.swt.examples.graphics.GraphicsExample">
+				<startup>false</startup>
+				<description>GraphicsExample</description>
+			</Application>
+			
+			<Application name="HoverHelp" mainClass="org.eclipse.swt.examples.hoverhelp.HoverHelp">
+				<startup>false</startup>
+				<description>HoverHelp</description>
+			</Application>
+			
+			<!-- 
+			<Application name="PaintExample" mainClass="org.eclipse.swt.examples.paint.PaintExample">
+				<startup>false</startup>
+				<description>PaintExample</description>
+			</Application>
+			-->
+			
+			<!--
+			<Application name="TextEditor" mainClass="org.eclipse.swt.examples.texteditor.TextEditor">
+				<startup>false</startup>
+				<description>TextEditor</description>
+			</Application>
+			-->
+			
+			<Application name="DNDExample" mainClass="org.eclipse.swt.examples.dnd.DNDExample">
+				<startup>false</startup>
+				<description>DNDExample</description>
+			</Application>
+			
+			<Application name="LayoutExample" mainClass="org.eclipse.swt.examples.layoutexample.LayoutExample">
+				<startup>false</startup>
+				<description>LayoutExample</description>
+			</Application>
+		</Programs>
+	</Desktop>
+</SmartSWTServer>
